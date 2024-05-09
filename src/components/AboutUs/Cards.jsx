@@ -1,6 +1,3 @@
-
-
-
 import ClipPath from "../../assets/svg/ClipPath";
 import { benefitIcon1, benefitIcon2, benefitImage2 } from "../../assets";
 
@@ -39,7 +36,7 @@ const Cards = () => {
                 <div
                     className="block relative max-w-[15rem] bg-no-repeat bg-[length:100%_100%] md:max-w-[28rem]"
                     style={{
-                        backgroundImage: `url(${item.backgroundUrl})`,
+                        backgroundImage: url(${item.backgroundUrl}),
                     }}
                     key={item.id}
                 >
@@ -61,7 +58,7 @@ const Cards = () => {
                         </a> */}
                     </div>
 
-                    {item.light && <GradientLight />}
+                    {/* {item.light && <GradientLight />} */}
 
 
                     <div
