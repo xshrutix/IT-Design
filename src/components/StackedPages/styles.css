@@ -1,0 +1,14 @@
+#vertical1,
+#vertical2,
+#vertical3 {
+  scroll-behavior: smooth;
+}
+
+.fade-in-section.is-visible {
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  visibility: visible;
+}

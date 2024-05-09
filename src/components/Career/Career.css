@@ -1,0 +1,40 @@
+/* Career.css */
+
+.purpose {
+  background: linear-gradient(270deg, #2a9df4 76.46%, #e1e8e2 98.7%);
+  background-clip: text;
+}
+.innovate,
+.purpose {
+  -webkit-text-fill-color: transparent;
+  font-family: Anton;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90%;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.sd-btn {
+  transform: scale(0.95);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  /* Lowering the shadow */
+  background-color: #2a9df4 !important;
+  color: white !important;
+}
+
+@media (min-width: 768px) {
+  .sd-btn {
+    transform: scale(0.95);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+    background-color: #2a9df4 !important;
+    margin-left: 30px;
+    color: white !important;
+  }
+}
